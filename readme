@@ -5,3 +5,10 @@ void jan_kowalski(void)
 {
 	Jan Kowalski
 }
+
+=================================================================================
+
+void bartosz_lewandowski(void)
+{
+	Bartosz Lewandowski
+}
