@@ -1,9 +1,24 @@
 # Task 1
 Dodaj na końcu tego pliku przykladowa funkcje zawierającą Twoje imie i nazwisko:
 
-void jan_kowalski(void)
+void tomasz_ciula(void)
 {
-	Jan Kowalski
+	Tomasz Ciuła
+}
+
+void rafal_klepacz(void)
+{
+	Rafał Klepacz
+}
+
+void damian_grzybowski(void)
+{
+	Damian Grzybowski
+}
+
+void sylwester_foerster(void)
+{
+	Sylwester Foerster
 }
 
 =================================================================================
