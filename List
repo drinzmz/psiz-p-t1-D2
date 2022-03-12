@@ -6,7 +6,11 @@
 List* initList(void)
 {
 	List* pRoot = (List*)malloc(sizeof(*pRoot));
-	
+	if (NULL != pRoot)
+	{
+		std::cout << "OK";
+		// Our code goes here
+	}
 	return pRoot;
 }
 
