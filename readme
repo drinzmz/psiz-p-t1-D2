@@ -20,7 +20,38 @@ void sylwester_foerster(void)
 {
 	Sylwester Foerster
 }
+
 void arkadiusz_bajura(void)
 {
 	Arkadiusz Bajura;
+}
+
+void wojciech_jastrzebowski(void)
+{
+	Wojciech Jastrzebowski
+}
+
+void tomasz_bazylczyk(void)
+{
+	Tomasz Bazylczyk
+}
+
+void kamil_getler(void)
+{
+	Kamil Getler
+}
+
+void karol_kufka(void)
+{
+	Karol Kufka
+}
+
+void iwona_ponicka(void)
+{
+	Iwona Ponicka
+}
+
+void daniel_flis(void)
+{
+	Daniel Flis
 }
