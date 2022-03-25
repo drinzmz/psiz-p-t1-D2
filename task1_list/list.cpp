@@ -8,6 +8,18 @@ List* initList(void)
 	List* pRoot = (List*)malloc(sizeof(*pRoot));
 	
 	return pRoot;
+		if (NULL != pRoot)
+	{
+		pRoot->pNext = NULL;
+		pRoot->entryTime = NULL;
+		printf("List has been initialized.\n");
+		return pRoot;
+	}
+	else
+	{
+		printf("Error! The list could not be initialized.\n");
+		return nullptr;
+	}
 }
 
 void deinitList(List* pRoot)
