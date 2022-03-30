@@ -61,3 +61,8 @@ void dawid_jankiewicz(void)
 {
 	Dawid Jankiewicz
 }
+
+void piotr_lanoszka(void)
+{
+	Piotr Łanoszka
+}
