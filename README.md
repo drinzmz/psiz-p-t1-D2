@@ -1,1 +1,4 @@
-task1_list
+void imie_nazwizko(void)
+{
+	Jakub essalhi
+}
