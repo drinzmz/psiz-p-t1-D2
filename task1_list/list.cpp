@@ -6,8 +6,13 @@
 List* initList(void)
 {
 	List* pRoot = (List*)malloc(sizeof(*pRoot));
+	if (pRoot != NULL){
+		return pRoot;
+	}
+	else {
+		return NULL;
+	}
 	
-	return pRoot;
 }
 
 void deinitList(List* pRoot)
