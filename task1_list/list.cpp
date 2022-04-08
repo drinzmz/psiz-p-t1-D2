@@ -25,7 +25,7 @@ void removeCar(List* pRoot, char* plateNum)
 {
 
 }
-void printAll(List* pRoot) {
+void printAll(List* pRoot) { // prints all cars in the parkhouse.
 
 }
 
