@@ -1,1 +1,6 @@
-task1_list
+void jakub_szynkielewski(void)
+{
+  
+  Jakub Szynkielewski
+  
+}
