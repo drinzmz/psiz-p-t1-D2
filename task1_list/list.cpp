@@ -7,6 +7,12 @@ List* initList(void)
 {
 	List* pRoot = (List*)malloc(sizeof(*pRoot));
 	
+	string nazwa_samochodu;
+	string marka;
+	int rocznik;
+	
+	
+	
 	return pRoot;
 }
 
@@ -19,7 +25,7 @@ void deinitList(List* pRoot)
 // adding a new car to list
 void addCar(List* pRoot, char* plateNum)
 {
-
+	
 }
 
 void removeCar(List* pRoot, char* plateNum)
