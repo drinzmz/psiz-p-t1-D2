@@ -3,48 +3,44 @@
 #include "stdio.h"
 
 
+
+
 List* initList(void)
 {
-	List* pRoot = (List*)malloc(sizeof(*pRoot));
+	List* ws = (List*)malloc(sizeof(*pRoot));
 	
-	string nazwa_samochodu;
-	string marka;
-	int rocznik;
-	
-	
-	
-	return pRoot;
+	return ws;
 }
 
-void deinitList(List* pRoot)
+void deinitList(List* ws)
 {
-	free(pRoot);
+	free(ws);
 	pRoot = NULL;
 }
 
 // adding a new car to list
-void addCar(List* pRoot, char* plateNum)
+void addCar(List* ws, char* plateNum)
 {
 	
 }
 
-void removeCar(List* pRoot, char* plateNum)
+void removeCar(List* ws, char* plateNum)
 {
 
 }
-void printAll(List* pRoot) {
+void printAll(List* ws) {
 
 }
 
-int numberOfElements(List* pRoot)
+int numberOfElements(List* ws)
 {
     int number = 0;
-    if (pRoot == NULL)
+    if (ws == NULL)
     {
       return number;
     }
 
-    List *pLastElement = pRoot;
+    List *pLastElement = ws;
     while(pLastElement->pNext != NULL)
     {
         pLastElement = (pLastElement->pNext);
