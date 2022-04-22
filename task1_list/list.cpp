@@ -1,46 +1,61 @@
 #include "pch.h"
 #include "list.h"
 #include "stdio.h"
+#include <iostream>
 
 
 
 
 List* initList(void)
 {
-	List* ws = (List*)malloc(sizeof(*pRoot));
+	List* pRoot = (List*)malloc(sizeof(*pRoot));
 	
-	return ws;
+	return pRoot;
 }
 
-void deinitList(List* ws)
+void deinitList(List* pRoot)
 {
 	free(ws);
 	pRoot = NULL;
 }
 
 // adding a new car to list
-void addCar(List* ws, char* plateNum)
+void addCar(List* pRoot, char* plateNum)
 {
+	pRoot.plateNum = plateNum;
+}
+
+void removeCar(List* pRoot, char* plateNum)
+{
+	pRoot.plateNum=null;
+}
+void printAll(List* pRoot) {
+	
+	if (ws==NULL)
+	{
+	    cout<<"PUSTO ";
+	}
+	else
+	{
+	  cout<<"Cars : ";
+	  while(pLastElement->pNext != NULL)
+    	  {
+	      	cout<<"pRoot.plateNum<<endl;
+		pLastElement = (pLastElement->pNext);  
+	  }
+	}
 	
 }
 
-void removeCar(List* ws, char* plateNum)
-{
-
-}
-void printAll(List* ws) {
-
-}
-
-int numberOfElements(List* ws)
+int numberOfElements(List* pRoot)
 {
     int number = 0;
-    if (ws == NULL)
+    if (pRoot == NULL)
     {
       return number;
     }
 
-    List *pLastElement = ws;
+    List *pLastElement = pRoot;
     while(pLastElement->pNext != NULL)
     {
         pLastElement = (pLastElement->pNext);
