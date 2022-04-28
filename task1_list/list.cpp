@@ -5,7 +5,7 @@
 
 List* initList(void)
 {
-	List* pRoot = (List*)malloc(sizeof(*pRoot));
+	List* pRoot = (List*)malloc(sizeof(*pRoot));//Nowy Scrypt
 	
 	return pRoot;
 }
