@@ -8,6 +8,7 @@ List* initList(void)
 	List* pRoot = (List*)malloc(sizeof(*pRoot));
 	
 	return pRoot;
+	free(pRoot);
 }
 
 void deinitList(List* pRoot)
