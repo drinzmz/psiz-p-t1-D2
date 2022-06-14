@@ -79,3 +79,8 @@ void lucjan_bakowski(void)
 {
 	Lucjan Bakowski
 }
+
+void piotr_polok(void)
+{
+	Piotr Polok
+}
