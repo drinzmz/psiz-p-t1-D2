@@ -36,12 +36,12 @@ void printAll(List* pRoot) {
 
 int numberOfElements(List* pRoot)
 {
-    int number = 0;
     if (pRoot == NULL)
     {
-      return number;
+      return 0;
     }
-
+	
+    int number = 0;
     List *pLastElement = pRoot;
     while(pLastElement->pNext != NULL)
     {
