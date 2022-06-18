@@ -33,6 +33,7 @@ void tomasz_bazylczyk(void)
 
 void kamil_getler(void)
 {
+
 	Kamil Getler
 }
 
@@ -79,3 +80,8 @@ void lucjan_bakowski(void)
 {
 	Lucjan Bakowski
 }
+void pawel_pogorzelski(void)
+{
+	Pawel Pogorzelski
+}
+
