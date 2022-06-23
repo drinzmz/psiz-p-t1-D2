@@ -16,7 +16,7 @@ void deinitList(List* pRoot)
 	pRoot = NULL;
 }
 
-// adding a new car to list
+// funkcja dodająca samochód
 void addCar(List* pRoot, char* plateNum)
 {
 
