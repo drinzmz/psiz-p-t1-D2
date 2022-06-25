@@ -43,7 +43,7 @@ int numberOfElements(List* pRoot)
     while(pLastElement->pNext != NULL)
     {
         pLastElement = (pLastElement->pNext);
-        number++; //increment
+        number++;//increment
     }
     return number;
 }
