@@ -9,6 +9,6 @@ int main()
 	List* pFirstFloor = initList(); //tworzenie listy
 	List* pSecFloor = initList();
 	
-	deinitList(pFirstFloor);
+	deinitList(pFirstFloor);//usun listy
 	deinitList(pSecFloor);
 }
